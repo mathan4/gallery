@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            margin: 10px;
+            width: 200px;
+            height: auto;
+        }
+        .focused {
+            outline: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="./assets/images/images.jpg" alt="Description of image 1" tabindex="0">
+        <img src="./assets/images/images1.jpg" alt="Description of image 2" tabindex="0">
+        <img src="./assets/images/images9.jpg" alt="Description of image 3" tabindex="0">
+        <img src="./assets/images/images3.jpg" alt="Description of image 4" tabindex="0">
+        <img src="./assets/images/images4.jpg" alt="Description of image 5" tabindex="0">
+        <img src="./assets/images/images6.avif" alt="Description of image 6" tabindex="0">
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
